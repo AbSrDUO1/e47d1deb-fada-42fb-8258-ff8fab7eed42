@@ -12,7 +12,7 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' }}>
       <div id="nav" data-section="nav">
         <NavbarLayoutSplitBottom
-          logoSrc="/images/logo.svg"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32Sjpo9ZLWlVS5JxRw9EagJf0Fo/tmp/a-nice-sparky-background-1759744470482-f9f168ac.jpg"
           logoWidth={100}
           logoHeight={40}
           navItems={
@@ -32,7 +32,7 @@ export default function Home() {
       <div id="hero" data-section="hero">
         <TokenBillboardHero
           title="Welcome to Mvpblocks"
-          subtitle="Your playground for Chess in the 3D world!"
+          subtitle="All good to go"
           contractAddress="0x123..."
           copyButtonText="Copy Address"
           copiedText="Address Copied!"
@@ -68,7 +68,7 @@ export default function Home() {
 
       <div id="footer" data-section="footer">
         <FooterLogoEmphasis
-          logoSrc="/images/logo.svg"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32Sjpo9ZLWlVS5JxRw9EagJf0Fo/logo-for-mvp-1759678266924-8fa8a341.jpg"
           logoAlt="Mvpblocks Logo"
           columns={[
             { items: [{ label: "Privacy Policy", onClick: () => {} }] },

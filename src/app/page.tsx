@@ -76,7 +76,6 @@ export default function Home() {
             { items: [{ label: "Contact Us", onClick: () => {} }] }
           ]}
           logoText="Mvpblocks"
-          copyrightText="© 2023 Mvpblocks"
           onPrivacyClick={() => {}}
         />
       </div>

@@ -5,6 +5,7 @@ import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import ExpandingGridTokenomics from '@/components/sections/layouts/tokenomics/ExpandingGridTokenomics';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
+import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 
 export default function Home() {
   return (
